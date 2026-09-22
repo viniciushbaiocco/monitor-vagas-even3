@@ -1,0 +1,9 @@
+# credenciais e configuracao local — nunca versionar
+.cookie
+.login
+.ntfy
+
+# ambiente
+.venv/
+__pycache__/
+*.pyc
