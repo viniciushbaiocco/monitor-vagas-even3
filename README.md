@@ -245,8 +245,7 @@ não bater no servidor sempre no mesmo instante.
 ## Sobre uso
 
 Feito para uso pessoal, na minha própria conta, em um evento gratuito da minha
-universidade. Uma requisição por minuto, sem paralelismo, sem criar conta e sem
-cancelar inscrição de ninguém. Publicado depois do evento terminar.
+universidade. Publicado pouco antes do evento começar.
 
 ## Como foi construído
 
