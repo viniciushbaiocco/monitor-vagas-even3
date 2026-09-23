@@ -256,6 +256,17 @@ de cada hipótese contra dados reais foram minhas. Vale registrar que a parte ma
 difícil, os três bugs acima, não saiu de sugestão de ferramenta, e sim de
 comparar byte a byte o que o navegador mandava com o que o meu código mandava.
 
+## Resultado
+
+Rodou durante a 28ª Semana Integrada e fez 4 inscrições sozinho. A mais
+relevante foram duas palestras esgotadas desde o primeiro dia: a vaga abriu
+às 22h40 de uma terça e o bot inscreveu em menos de um minuto, sem
+ninguém olhando para a tela.
+
+O código publicado aqui é uma reescrita da versão que rodou no evento:
+mesmo comportamento, reorganizado em um arquivo só, com os modos de
+diagnóstico e a bateria de testes descrita acima.
+
 ## Tecnologias
 
 Python 3, [requests](https://requests.readthedocs.io),
