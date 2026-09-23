@@ -140,9 +140,13 @@ def buscar_atividades():
     # chaves sem aspas: e um objeto JavaScript, nao JSON. O chompjs le o
     # primeiro objeto e para sozinho, ignorando o resto da pagina.
     dados = chompjs.parse_js_object(resposta.text[marca.end():])
+    # a tela de login tambem tem um viewModel, mas sem a lista de atividades
+    lista = dados.get("listaMinicursoParticipante")
+    if lista is None:
+        return None
 
     atividades = {}
-    for atividade in dados["listaMinicursoParticipante"]:
+    for atividade in lista:
         # o parser devolve os booleanos como texto, e "false" e verdadeiro em Python
         atividade["estouInscrito"] = str(atividade["estouInscrito"]).lower() == "true"
         atividade["inscritos"] = int(atividade["quantidadeInscritos"])
